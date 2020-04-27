@@ -3,11 +3,10 @@ package ua.com.foxminded.task_8.domain;
 public class WarehouseManager {
     private Group root;
 
-    public Group getRoot() {
-        return root;
+    public WarehouseManager() {
     }
 
-    public void setRoot(Group root) {
+    public WarehouseManager(Group root) {
         this.root = root;
     }
 

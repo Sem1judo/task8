@@ -7,6 +7,11 @@ public class ObtainItem {
     public ObtainItem() {
     }
 
+    public ObtainItem(Goods goods, int amount) {
+        this.goods = goods;
+        this.amount = amount;
+    }
+
     public Goods getGoods() {
         return goods;
     }

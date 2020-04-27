@@ -10,6 +10,11 @@ public class Cart {
     public Cart() {
     }
 
+    public Cart(List<ObtainItem> items, Obtainer obtainer) {
+        this.items = items;
+        this.obtainer = obtainer;
+    }
+
     public List<ObtainItem> getItems() {
         return items;
     }
@@ -24,6 +29,10 @@ public class Cart {
 
     public void setObtainer(Obtainer obtainer) {
         this.obtainer = obtainer;
+    }
+
+    public void addItem(ObtainItem obtainItem) {
+        items.add(obtainItem);
     }
 
     @Override

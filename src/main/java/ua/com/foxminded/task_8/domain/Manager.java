@@ -5,6 +5,13 @@ import java.util.List;
 public class Manager {
     private List<Cart> carts;
 
+    public Manager() {
+    }
+
+    public Manager(List<Cart> carts) {
+        this.carts = carts;
+    }
+
     public List<Cart> getCarts() {
         return carts;
     }

@@ -8,6 +8,11 @@ public class Goods {
     public Goods() {
     }
 
+    public Goods(int price, String name) {
+        this.price = price;
+        this.name = name;
+    }
+
     public int getPrice() {
         return price;
     }

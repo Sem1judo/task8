@@ -6,6 +6,14 @@ public class Group {
     private List<Group> children;
     private List<Goods> goods;
 
+    public Group() {
+    }
+
+    public Group(List<Group> children, List<Goods> goods) {
+        this.children = children;
+        this.goods = goods;
+    }
+
     public List<Group> getChildren() {
         return children;
     }
